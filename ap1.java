@@ -7,17 +7,17 @@ public class ap1 {
         String op = input.next();
         int b = input.nextInt();
 
-        if (op.equals("+")){            
-            System.out.println(a+b);
+        if ( op.equals("+") ){            
+            System.out.println( a + b);
         }
-        else if (op.equals("-")){
-            System.out.println(a-b);
+        else if ( op.equals("-") ){
+            System.out.println( a - b );
         }
-        else if (op.equals("*")){
-            System.out.println(a*b);
+        else if ( op.equals("*")){
+            System.out.println( a * b );
         }
-        else if (op.equals("/")){
-            System.out.println(a/b);
+        else if ( op.equals("/") ){
+            System.out.println( a / b );
         }
     }
 }
