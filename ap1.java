@@ -6,6 +6,18 @@ public class ap1 {
         int a = input.nextInt();
         String operand = input.next();
         int b = input.nextInt();
+        if ( op.equals("+") ){            
+            System.out.println( a + b);
+        }
+        else if ( op.equals("-") ){
+            System.out.println( a - b );
+        }
+        else if ( op.equals("*")){
+            System.out.println( a * b );
+        }
+        else if ( op.equals("/") ){
+            System.out.println( a / b );
+        }
 
     }
 }
